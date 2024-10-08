@@ -1,0 +1,93 @@
+body {
+    flex-direction: column;
+    background-color: #fffac9;
+    width: 98vw;
+}
+
+div {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: rgb(33, 22, 179);
+    text-shadow: 1px 2px gold;
+}
+
+.players {
+    flex-direction: row;
+    gap: 3%;
+    justify-content: space-around;
+    width: 22rem;
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin: 3%;
+    border: solid 3px gold;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+#player1display, .p1winner {
+    color: #df327d;
+}
+
+#player2display, .p2winner {
+    color:  rgb(5, 207, 147);
+}
+
+.boo {
+    color:rgb(45, 195, 255);
+}
+
+.diceTotal {
+    width: 10rem;
+    padding: 1rem;
+    background-color: white;
+}
+
+.container {
+    flex-direction: column;
+    font-family: "Playwrite MX", cursive;
+}
+
+.child-0 {
+    flex-direction: column;
+}
+
+.child-1, #diceImages {
+    font-family: "Playfair Display", serif;
+    margin: 3%;
+    border: solid 3px gold;
+    border-radius: 3px;
+
+}
+
+button {
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(255, 164, 45);
+    border: solid 2pt gold;
+    border-radius: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    letter-spacing: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+#nameButt:hover, #rollDiceButt:hover{
+    background-color: #ce2971c5;
+}
+
+#skipButt {
+    background-color: rgba(255, 164, 45, 0.5);
+    border: solid 2pt rgba(255, 217, 0, 0.5);
+    margin: 5%;
+}
+
+#skipButt:hover, #resetButt:hover {
+    background-color: rgba(255, 217, 0, 0.25);
+}

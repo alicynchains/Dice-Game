@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+MX:wght@100..400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../dice-game/dice-game.css">
+        <title>Alicyn's Dice Game</title>
+    </head>
+
+<body>
+
+    <div class = "container head">
+        <h1>Dice Game</h1>
+        <div class= "players">
+            <div id="player1display">Player 1</div>
+            <div> vs. </div>
+            <div id="player2display">Player 2</div>
+        </div>
+    </div>
+
+    <div class ="container body">
+        
+        <div class = "child-0"> 
+            <h2 id = "text">Highest roll wins!</h2>         
+        </div>
+
+        <div class="child-1" id="diceImages">
+            <div><img src= "../dice-game/assets/images/dice_side1.PNG" id="dice1" class="diceTotal" alt=" "></div>
+            <div><img src= "../dice-game/assets/images/dice_roll1.PNG" id= "dice2" class="diceTotal" alt=" "></div>
+        </div>
+
+    </div>
+
+    <div class = "container buttBox">
+        <div><button id="nameButt">Personalize</button>
+        <button id="skipButt">skip</button></div>
+        <div><button id="rollDiceButt">Roll Dice</button></div>
+        <div><button id="resetButt">Reset</button></div>
+    </div>
+
+<script src="../dice-game/dice-game.js"></script>
+</body>
+</html>
